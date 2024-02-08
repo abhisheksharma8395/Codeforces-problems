@@ -1,6 +1,5 @@
 package codeforces;
 import java.util.Scanner;
-import java.util.Arrays;
 public class Holiday_Of_Equality {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
