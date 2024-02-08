@@ -6,15 +6,15 @@ public class Holiday_Of_Equality {
         Scanner sc=new Scanner(System.in);
         int n,i,count=0;
         n=sc.nextInt();
-        int myarr[]=new int[n];
+        int[] myarr2=new int[n];
         for(i=0;i<n;i++){
-            myarr[i]=sc.nextInt();
+            myarr2[i]=sc.nextInt();
         }
-        Arrays.stream(myarr).sorted();
+        Arrays.stream(myarr2).sorted();
         for(i=0;i<n;i++){
-            while(myarr[i]!=myarr[n-1]){
+            while(myarr2[i]!=myarr2[n-1]){
                 count++;
-                myarr[i]+=1;
+                myarr2[i]+=1;
             }
         }
         System.out.println(count);
