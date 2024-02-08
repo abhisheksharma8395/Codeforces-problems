@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Triangle {
     public static void main(String[] args) {
         int i,j,temp;
-        int myarray[]=new int[4];
+        int[] myarray =new int[4];
         Scanner sc=new Scanner(System.in);
         for (i=0;i<4;i++){
             myarray[i]=sc.nextInt();
