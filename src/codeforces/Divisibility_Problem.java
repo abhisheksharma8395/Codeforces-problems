@@ -8,7 +8,7 @@ public class Divisibility_Problem {
         int n,i=0;
 
         n = sc.nextInt();
-        int myarr[]=new int[n];
+        int[] marry=new int[n];
         while (i < n)
 
         {
@@ -16,15 +16,15 @@ public class Divisibility_Problem {
             a = sc.nextInt();
             b = sc.nextInt();
             if (a % b != 0) {
-                myarr[i] = (b - (a % b));
+                marry[i] = (b - (a % b));
             } else {
-                myarr[i] = 0;
+                marry[i] = 0;
             }
             i++;
         }
         i=0;
         while(i<n){
-            System.out.println(myarr[i]);
+            System.out.println(marry[i]);
             i++;
         }
     }
