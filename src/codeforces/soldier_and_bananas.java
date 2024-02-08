@@ -12,10 +12,6 @@ public class soldier_and_bananas {
         for (int i = 1; i <= w; i++) {
             sum += i * k;
         }
-        if ((sum - n) > 0) {
-            System.out.println(sum - n);
-        } else {
-            System.out.println(0);
-        }
+        System.out.println(Math.max((sum - n), 0));
     }
 }

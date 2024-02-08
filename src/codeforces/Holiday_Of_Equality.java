@@ -7,10 +7,9 @@ public class Holiday_Of_Equality {
         int n,i,count=0;
         n=sc.nextInt();
         int[] myarr2=new int[n];
-        for(i=0;i<n;i++){
-            myarr2[i]=sc.nextInt();
+        for(i=0;i<n;i++) {
+            myarr2[i] = sc.nextInt();
         }
-        Arrays.stream(myarr2).sorted();
         for(i=0;i<n;i++){
             while(myarr2[i]!=myarr2[n-1]){
                 count++;

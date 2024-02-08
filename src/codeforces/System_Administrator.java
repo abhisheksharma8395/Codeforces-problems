@@ -20,20 +20,16 @@ public class System_Administrator{
             }
         }
 
-        if (t) {
-            if (sta >= 0) {
-                System.out.println("LIVE");
-            } else {
-                System.out.println("DEAD");
-            }
+        if (sta >= 0) {
+            System.out.println("LIVE");
+        } else {
+            System.out.println("DEAD");
         }
 
-        if (t) {
-            if (stb >= 0) {
-                System.out.println("LIVE");
-            } else {
-                System.out.println("DEAD");
-            }
+        if (stb >= 0) {
+            System.out.println("LIVE");
+        } else {
+            System.out.println("DEAD");
         }
     }
 }
