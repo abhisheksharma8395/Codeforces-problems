@@ -19,7 +19,7 @@ public class Die_Roll {
         int y,w,max_roll,total_outcome,favourable_outcome,common_divisor,numerator,denominator;
         y=sc.nextInt();
         w=sc.nextInt();
-        max_roll= y>w?y:w;
+        max_roll= Math.max(y, w);
         total_outcome=6;
         favourable_outcome=6-max_roll+1;
         common_divisor= dr.gcd(total_outcome,favourable_outcome);
