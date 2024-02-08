@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Die_Roll {
     int gcd(int a,int b){
         int hcf=1;
-        int max= a>b?a:b;
+        int max= Math.max(a, b);
         for (int i = 1; i <=max; i++) {
             if((a%i==0)&&(b%i==0)){
                 hcf=i;
