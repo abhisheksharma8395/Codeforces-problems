@@ -1,7 +1,6 @@
 package codeforces;
-import java.util.Scanner;
 
-import static java.lang.Math.floor;
+import java.util.Scanner;
 
 public class domino_pilling {
     public static void main(String[] args) {
